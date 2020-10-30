@@ -40,9 +40,11 @@ line-height:1.19;
 text-align: center;
 color: var(--text-color);
 }
+
 .link,
 .list {
-    text-decoration: none; 
+    text-decoration: none;
+    list-style: none; 
 }
 
 /*hero title*/
@@ -56,6 +58,14 @@ text-transform: uppercase;
 }
 
     /* site nav*/
+.site-nav {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.06;
+letter-spacing: 0.02em;
+
+color: #2196F3;
+}
     
 .site-nav .link {
 color: var(--primary-text-color);
@@ -136,4 +146,21 @@ text-align: center;
     color: var(--accent-color);
     background-color: var(--primart-white-color);
     border-color: blue;
+}
+
+/* футер*/
+.footer {
+    background-color: #2F303A;
+}
+
+.kontaktu {
+font-family: Roboto;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+
+.kontaktu-address {
+    color: rgba(255, 255, 255, 0.6);
 }
