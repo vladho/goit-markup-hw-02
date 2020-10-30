@@ -23,6 +23,9 @@ text-decoration: none;
 .part-logo {
     color: var(--primary-text-color);
 }
+.part-logo-footer {
+    color: white;
+}
 .name {
 font-weight: 500;
 font-size: 16px;
@@ -66,7 +69,14 @@ letter-spacing: 0.02em;
 
 color: #2196F3;
 }
+.auth-nav {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
     
+    color: #757575;
+}
 .site-nav .link {
 color: var(--primary-text-color);
 text-decoration: none;
@@ -154,11 +164,10 @@ text-align: center;
 }
 
 .kontaktu {
-font-family: Roboto;
 font-size: 14px;
 line-height: 1.71;
-letter-spacing: 0.03em;
 color: #FFFFFF;
+font-style: normal ;
 }
 
 .kontaktu-address {
